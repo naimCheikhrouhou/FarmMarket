@@ -168,7 +168,7 @@ Ctrl + M
 
 ## 7. Remove The DevTools Icon
 
-To remove the devtools icon that appears in the top right corner of the app, click on it and uncheck the "Tools Button" option in the menu that appears. You can still access the devtools by pressing m(in vscode while the server is opended )
+To remove the devtools icon that appears in the top right corner of the app, click on it and uncheck the "Tools Button" option in the menu that appears. You can still access the devtools by pressing m  (in vscode while the server is opended )
 
 ## 8. Basic Home Screen
 
