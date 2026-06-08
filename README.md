@@ -1,56 +1,62 @@
-# Welcome to your Expo app 👋
+# Farm maket Front-end steps
+This file contains the steps and all the code used  for the React Native UI for Farm market   
+<br>
+## Project Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The project is a business app named FarmMarket that allows users to publish their (products,services,proprety) and view others users publications.
+The app has  6 main features 
 
-## Get started
 
-1. Install dependencies
+<p align="center">
+  <img src="assets/screen.png" alt="FarmMarket App" width="300" />
+</p>
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+## Features
 
-   ```bash
-   npx expo start
-   ```
+- Products Marketplace 
+- Services Marketplace 
+- Rent,buy and Sell land
+- Wholesale Spot — Farm-to-Grocer Direct Trade
+- Local Shopping — Consumer-Facing Marketplace
+- Farm Pharmacy — Crop & Livestock Health
 
-In the output, you'll find options to open the app in a
+ ## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/) (SDK 55)
+- [Expo Router](https://docs.expo.dev/router/introduction/) (file-based routing)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) for local data persistence
+- [Expo Notifications](https://docs.expo.dev/versions/latest/sdk/notifications/) for reminders
+- [Expo Haptics](https://docs.expo.dev/versions/latest/sdk/haptics/) for tactile feedback
+- TypeScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+  ## Getting Started
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+- [Node.js](https://nodejs.org/) (LTS)
+- [Expo Go](https://expo.dev/go) app on your phone, or an Android/iOS emulator
+
+### Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/bradtraversy/macrozone.git
+cd macrozone
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Run the App
 
-### Other setup steps
+```bash
+npx expo start
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Scan the QR code with Expo Go (Android) or the Camera app (iOS) to run on your device.
 
-## Learn more
+## Course Steps
 
-To learn more about developing your project with Expo, look at the following resources:
+The full step-by-step guide with all the code for the crash course is available in the [STEPS.md](STEPS.md) file.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## License
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MIT
